@@ -1,4 +1,4 @@
-﻿# ERDOS-GREEDY-AGENT
+# ERDOS-GREEDY-AGENT
 
 **An autonomous experimental-mathematics agent for greedy obstructions in the
 Erdős–Straus equation.**
