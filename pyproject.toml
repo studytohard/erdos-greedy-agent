@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "erdos-greedy-agent"
+version = "0.1.0"
+description = "Autonomous experimental agent for greedy obstructions in the Erdos-Straus equation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "ERDOS-GREEDY-AGENT"}]
+dependencies = ["matplotlib>=3.7"]
+keywords = ["number theory", "Erdos-Straus", "unit fractions", "autonomous agent", "experimental mathematics"]
+
+[project.scripts]
+es-agent = "es_agent.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

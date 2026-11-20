@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Test / temporary runs
+runs/unit_*/
+runs/test_*/
+runs/demo/
+.unit_*/
+unit_*/
+tmp*/
+
+# Data binaries (reproducible from the CLI)
+data/*.bin
+
+# LaTeX build artefacts
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.fls
+report/*.fdb_latexmk
+report/*.xdv
+report/*.synctex.gz
+report/test.*
+
+# OS
+.DS_Store
+Thumbs.db

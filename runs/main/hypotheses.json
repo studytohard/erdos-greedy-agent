@@ -1,0 +1,124 @@
+[
+  {
+    "id": "H0",
+    "statement": "k(n) = 1 for every n ≥ 2",
+    "status": "refuted",
+    "evidence": "counterexample n=49 has k=2",
+    "history": [
+      {
+        "step": 2,
+        "status": "refuted",
+        "evidence": "counterexample n=49 has k=2"
+      }
+    ]
+  },
+  {
+    "id": "H1",
+    "statement": "k(n) > 1 iff every prime factor of n and of (n+3)//4 is ≡ 1 (mod 3)",
+    "status": "theorem",
+    "evidence": "the two-literal rule was proved by the p=3 divisor argument and audited without exception up to n=20,000,000",
+    "history": [
+      {
+        "step": 3,
+        "status": "supported",
+        "evidence": "conjunction ['all pf(n)%3==1', 'all pf(x0)%3==1'] has precision=1.0000, recall=1.0000 on [2,50000]"
+      },
+      {
+        "step": 7,
+        "status": "theorem",
+        "evidence": "the two-literal rule was proved by the p=3 divisor argument and audited without exception up to n=20,000,000"
+      }
+    ]
+  },
+  {
+    "id": "H2",
+    "statement": "k(n) ≤ 2 ln n for all n in the scanned range",
+    "status": "supported",
+    "evidence": "max k/ln n = 1.675 on the prefix points",
+    "history": [
+      {
+        "step": 12,
+        "status": "supported",
+        "evidence": "max k/ln n = 1.675 on the prefix points"
+      }
+    ]
+  },
+  {
+    "id": "H3",
+    "statement": "every record holder n > 49 is prime",
+    "status": "supported",
+    "evidence": "primality of record holders: [(49, False), (1129, True), (1201, True), (21169, True), (118801, True), (8803369, True)]",
+    "history": [
+      {
+        "step": 8,
+        "status": "supported",
+        "evidence": "primality of record holders: [(49, False), (1129, True), (1201, True), (21169, True), (118801, True), (8803369, True)]"
+      }
+    ]
+  },
+  {
+    "id": "H4",
+    "statement": "the greedy witness height z(n) < n⁴/8 for all n",
+    "status": "supported",
+    "evidence": "max z = 8.792e+19 at n=767761; trivial bound n⁴/8 at this n is 4.343e+22",
+    "history": [
+      {
+        "step": 10,
+        "status": "supported",
+        "evidence": "max z = 8.792e+19 at n=767761; trivial bound n⁴/8 at this n is 4.343e+22"
+      }
+    ]
+  },
+  {
+    "id": "H5",
+    "statement": "z(n)/n³ ≤ 100 for every n in the scanned range",
+    "status": "refuted",
+    "evidence": "max observed z/n³ = 194.3 at n=767761",
+    "history": [
+      {
+        "step": 10,
+        "status": "refuted",
+        "evidence": "max observed z/n³ = 194.3 at n=767761"
+      }
+    ]
+  },
+  {
+    "id": "H6",
+    "statement": "k_max(N) grows linearly in ln N",
+    "status": "refuted",
+    "evidence": "k_max ≈ 1.884 ln N + -8.141, R²=0.8571",
+    "history": [
+      {
+        "step": 12,
+        "status": "refuted",
+        "evidence": "k_max ≈ 1.884 ln N + -8.141, R²=0.8571"
+      }
+    ]
+  },
+  {
+    "id": "H7",
+    "statement": "k_max(N) grows faster than linearly in ln N",
+    "status": "supported",
+    "evidence": "power-in-ln model (n≥1000): k_max ≈ 0.0081 (ln N)^2.884, R²=0.983",
+    "history": [
+      {
+        "step": 13,
+        "status": "supported",
+        "evidence": "power-in-ln model (n≥1000): k_max ≈ 0.0081 (ln N)^2.884, R²=0.983"
+      }
+    ]
+  },
+  {
+    "id": "H8",
+    "statement": "the largest height spikes lie in the CRT class n ≡ 9 (mod 19), n ≡ 33 (mod 52), where 13 | x₅ and d = 13",
+    "status": "supported",
+    "evidence": "2 of the top 6 height spikes lie in the CRT class n ≡ 9 (mod 19), n ≡ 33 (mod 52) with d = 13",
+    "history": [
+      {
+        "step": 11,
+        "status": "supported",
+        "evidence": "2 of the top 6 height spikes lie in the CRT class n ≡ 9 (mod 19), n ≡ 33 (mod 52) with d = 13"
+      }
+    ]
+  }
+]

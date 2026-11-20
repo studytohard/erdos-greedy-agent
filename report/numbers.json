@@ -1,0 +1,433 @@
+{
+ "records": [
+  {
+   "n": 49,
+   "k": 2,
+   "is_prime": false,
+   "factorization": {
+    "7": 2
+   },
+   "x": 14,
+   "y": 196,
+   "z": 196,
+   "d": 98,
+   "p": 1,
+   "z_over_n2": 0.08163265306122448,
+   "z_over_n3": 0.001665972511453561
+  },
+  {
+   "n": 1129,
+   "k": 3,
+   "is_prime": true,
+   "factorization": {
+    "1129": 1
+   },
+   "x": 285,
+   "y": 33870,
+   "z": 214510,
+   "d": 50805,
+   "p": 11,
+   "z_over_n2": 0.1682905225863596,
+   "z_over_n3": 0.00014906157890731586
+  },
+  {
+   "n": 1201,
+   "k": 6,
+   "is_prime": true,
+   "factorization": {
+    "1201": 1
+   },
+   "x": 306,
+   "y": 21618,
+   "z": 61251,
+   "d": 129708,
+   "p": 23,
+   "z_over_n2": 0.042464612822647796,
+   "z_over_n3": 3.53577125917134e-05
+  },
+  {
+   "n": 21169,
+   "k": 8,
+   "is_prime": true,
+   "factorization": {
+    "21169": 1
+   },
+   "x": 5300,
+   "y": 3704575,
+   "z": 157073980,
+   "d": 2646125,
+   "p": 31,
+   "z_over_n2": 0.35051254192451226,
+   "z_over_n3": 1.655782237821873e-05
+  },
+  {
+   "n": 118801,
+   "k": 15,
+   "is_prime": true,
+   "factorization": {
+    "118801": 1
+   },
+   "x": 29715,
+   "y": 59875704,
+   "z": 84724121160,
+   "d": 2494821,
+   "p": 59,
+   "z_over_n2": 6.002979772897534,
+   "z_over_n3": 5.05297074342601e-05
+  },
+  {
+   "n": 8803369,
+   "k": 27,
+   "is_prime": true,
+   "factorization": {
+    "8803369": 1
+   },
+   "x": 2200869,
+   "y": 181085300330,
+   "z": 3293760527702370,
+   "d": 1065207649,
+   "p": 107,
+   "z_over_n2": 42.500516563601956,
+   "z_over_n3": 4.827755892500014e-06
+  }
+ ],
+ "height_cases": [
+  {
+   "n": 767761,
+   "k": 5,
+   "x": 191945,
+   "y": 7756204482,
+   "z": 87924265481885401530,
+   "d": 13,
+   "p": 19,
+   "z2": 149161469.75000033,
+   "z3": 194.28112361789715,
+   "nmod19": 9,
+   "nmod52": 33
+  },
+  {
+   "n": 418009,
+   "k": 5,
+   "x": 104507,
+   "y": 2299203504,
+   "z": 7726184482570925904,
+   "d": 13,
+   "p": 19,
+   "z2": 44217461.750000596,
+   "z3": 105.7811237317871,
+   "nmod19": 9,
+   "nmod52": 33
+  },
+  {
+   "n": 499801,
+   "k": 5,
+   "x": 124955,
+   "y": 3286980738,
+   "z": 3063889624588802370,
+   "d": 67,
+   "p": 19,
+   "z2": 12265319.750000501,
+   "z3": 24.540406581820566,
+   "nmod19": 6,
+   "nmod52": 29
+  },
+  {
+   "n": 844561,
+   "k": 3,
+   "x": 211143,
+   "y": 16211194922,
+   "z": 3145627022733162474,
+   "d": 919,
+   "p": 11,
+   "z2": 4410066.938248392,
+   "z3": 5.22172695429743,
+   "nmod19": 11,
+   "nmod52": 29
+  },
+  {
+   "n": 266401,
+   "k": 3,
+   "x": 66603,
+   "y": 1613009632,
+   "z": 192079198401571104,
+   "d": 149,
+   "p": 11,
+   "z2": 2706503.7500009383,
+   "z3": 10.159510474814052,
+   "nmod19": 2,
+   "nmod52": 5
+  }
+ ],
+ "chain27": [
+  {
+   "j": 1,
+   "a": 3,
+   "p": 3,
+   "x": 2200843,
+   "reachable": 1,
+   "target": 2,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 3"
+  },
+  {
+   "j": 2,
+   "a": 7,
+   "p": 7,
+   "x": 2200844,
+   "reachable": 3,
+   "target": 6,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 7"
+  },
+  {
+   "j": 3,
+   "a": 11,
+   "p": 11,
+   "x": 2200845,
+   "reachable": 5,
+   "target": 10,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 11"
+  },
+  {
+   "j": 4,
+   "a": 15,
+   "p": 15,
+   "x": 2200846,
+   "reachable": 4,
+   "target": 14,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 15"
+  },
+  {
+   "j": 5,
+   "a": 19,
+   "p": 19,
+   "x": 2200847,
+   "reachable": 9,
+   "target": 18,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 19"
+  },
+  {
+   "j": 6,
+   "a": 23,
+   "p": 23,
+   "x": 2200848,
+   "reachable": 11,
+   "target": 22,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 23"
+  },
+  {
+   "j": 7,
+   "a": 27,
+   "p": 27,
+   "x": 2200849,
+   "reachable": 9,
+   "target": 26,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 27"
+  },
+  {
+   "j": 8,
+   "a": 31,
+   "p": 31,
+   "x": 2200850,
+   "reachable": 15,
+   "target": 30,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 31"
+  },
+  {
+   "j": 9,
+   "a": 35,
+   "p": 35,
+   "x": 2200851,
+   "reachable": 12,
+   "target": 34,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 35"
+  },
+  {
+   "j": 10,
+   "a": 39,
+   "p": 39,
+   "x": 2200852,
+   "reachable": 12,
+   "target": 38,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 39"
+  },
+  {
+   "j": 11,
+   "a": 43,
+   "p": 43,
+   "x": 2200853,
+   "reachable": 13,
+   "target": 42,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 43"
+  },
+  {
+   "j": 12,
+   "a": 47,
+   "p": 47,
+   "x": 2200854,
+   "reachable": 23,
+   "target": 46,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 47"
+  },
+  {
+   "j": 13,
+   "a": 51,
+   "p": 51,
+   "x": 2200855,
+   "reachable": 13,
+   "target": 50,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 51"
+  },
+  {
+   "j": 14,
+   "a": 55,
+   "p": 55,
+   "x": 2200856,
+   "reachable": 20,
+   "target": 54,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 55"
+  },
+  {
+   "j": 15,
+   "a": 59,
+   "p": 59,
+   "x": 2200857,
+   "reachable": 27,
+   "target": 58,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 59"
+  },
+  {
+   "j": 16,
+   "a": 63,
+   "p": 63,
+   "x": 2200858,
+   "reachable": 18,
+   "target": 62,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 63"
+  },
+  {
+   "j": 17,
+   "a": 67,
+   "p": 67,
+   "x": 2200859,
+   "reachable": 23,
+   "target": 66,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 67"
+  },
+  {
+   "j": 18,
+   "a": 71,
+   "p": 71,
+   "x": 2200860,
+   "reachable": 35,
+   "target": 70,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 71"
+  },
+  {
+   "j": 19,
+   "a": 75,
+   "p": 75,
+   "x": 2200861,
+   "reachable": 20,
+   "target": 74,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 75"
+  },
+  {
+   "j": 20,
+   "a": 79,
+   "p": 79,
+   "x": 2200862,
+   "reachable": 39,
+   "target": 78,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 79"
+  },
+  {
+   "j": 21,
+   "a": 83,
+   "p": 83,
+   "x": 2200863,
+   "reachable": 27,
+   "target": 82,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 83"
+  },
+  {
+   "j": 22,
+   "a": 87,
+   "p": 87,
+   "x": 2200864,
+   "reachable": 28,
+   "target": 86,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 87"
+  },
+  {
+   "j": 23,
+   "a": 91,
+   "p": 91,
+   "x": 2200865,
+   "reachable": 36,
+   "target": 90,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 91"
+  },
+  {
+   "j": 24,
+   "a": 95,
+   "p": 95,
+   "x": 2200866,
+   "reachable": 25,
+   "target": 94,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 95"
+  },
+  {
+   "j": 25,
+   "a": 99,
+   "p": 99,
+   "x": 2200867,
+   "reachable": 9,
+   "target": 98,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 99"
+  },
+  {
+   "j": 26,
+   "a": 103,
+   "p": 103,
+   "x": 2200868,
+   "reachable": 49,
+   "target": 102,
+   "success": false,
+   "reason": "-1 is outside the reachable shifted divisor residues mod 103"
+  },
+  {
+   "j": 27,
+   "a": 107,
+   "p": 107,
+   "x": 2200869,
+   "reachable": 106,
+   "target": 106,
+   "success": true,
+   "reason": "-1 lies in the reachable shifted divisor residues mod 107"
+  }
+ ]
+}
